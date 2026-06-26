@@ -54,7 +54,7 @@ header p {
     flex-direction: column;
 
     width:320px;
-    min-height: 420;
+    min-height: 420px ;
     border-radius:12px;
     padding:20px;
     border:solid 5px black;
@@ -120,3 +120,24 @@ header p {
     margin:0;
     padding: 50px 0;
 }
+
+
+.card button {
+    /* idk what to add really, the button looks very lame i wana mke it more interactive  */
+    padding:5px 5px;
+    border:solid 2px green;
+    border-radius: 8px;
+    
+    font-size:15px;
+    transition: all 0.3s ease;
+    font-weight: 700;
+    
+
+    display:block;
+    margin:10px auto 0;
+
+
+
+}
+
+/*  remember :margin prop has 4 attributes and it works in clockwise format  */
