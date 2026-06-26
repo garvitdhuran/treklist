@@ -7,8 +7,10 @@
 body {
     font-family: Arial, Arial, Helvetica, sans-serif;
     background-color: #eef5e9;
-    color:#2f3e2d;
+    /* color:#2f3e2d; */
     line-height: 1.6;
+    background-image: url(chandrashila.jpeg);
+    background-size: cover;
 
 }
 
@@ -19,7 +21,7 @@ header {
     text-align:center;
     padding:40px 20px;
 
-    font-family: ;
+    font-family: "Montserrat", sans-serif;
 }
 
 
@@ -55,6 +57,8 @@ header p {
     min-height: 420;
     border-radius:12px;
     padding:20px;
+    border:solid 5px black;
+
 
 
     box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
@@ -82,7 +86,7 @@ header p {
 
 .card p {
     margin:5px;
-    /* font-weight: 300; */
+    
 }
 
 .card strong {
@@ -90,3 +94,29 @@ header p {
 }
 
 
+.card img{
+    width:100%;
+    height:150px;
+    object-fit: cover;
+    border-radius: 15px;  
+    /* what it does is makes the image circular ig, baaki too dekhna pdega */
+    border: solid 2px cadetblue;
+}
+
+
+.secondary-page {
+    color:white;
+    width: 80%;
+    margin: 0 auto;
+    
+
+
+}
+
+
+.secondaryy{
+    background-color: #355e3b;
+    width:100%;
+    margin:0;
+    padding: 50px 0;
+}
